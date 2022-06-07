@@ -1,0 +1,16 @@
+*{
+    font-family: "Georgia", monospace !important;
+}
+
+body{
+    background: #EEEEEE;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+
+.logo svg{
+    margin-right: 15px;
+}
+

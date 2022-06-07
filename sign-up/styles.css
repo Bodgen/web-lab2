@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", monospace !important;
+}
+
+body{
+    background: #EEEEEE;
+    width: 100%;
+}
+
+.content {
+    height: 100vh;
+}
+
+.form-block{
+    margin-top: 50px;
+}
+
+@media (max-width: 820px) {
+    body{
+        max-width: 800px;
+    }
+    .logo-app{
+        display: none !important;
+    }
+    .form-block{
+        margin: auto;
+    }
+    .form-block .container{
+        width: 100% !important;
+    }
+}
